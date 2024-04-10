@@ -59,7 +59,23 @@ pub fn make_svp_html(svp_content: &str, output_path: &str) {
     svp_html.write_all(br#"<html>
 <head>
 <title>SVP Document</title>
-<style>svg{display: block; width: 100%;} svp{background: white;}</style>
+<style>
+body, html {
+    width: 100%;
+    background: #333;
+
+    height: 100%;
+}
+svg {  
+    display: block;
+    background: white;
+    box-sizing: border-box;
+    padding: 2rem;
+    margin: 2rem auto;
+    height: 100vh;
+    width: auto;
+}
+</style>
 </head>
 <body>"#).unwrap();
     svp_html.write_all(svp_content.as_bytes()).unwrap();
