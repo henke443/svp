@@ -49,4 +49,4 @@ svg {
 ```
 
 
-I think should happen by default when opening a .svp file in the future, hopefully (but with the same document viewer as the current browser's pdf viewer and not just this basic styling)
+It would be amazing if something like this automatically happen when a .svp file is opened (but with the same document viewer as the current browser's pdf viewer and not just this basic styling).
