@@ -3,7 +3,7 @@
 This is a super quick (like an hour or two) experiment I did when thinking about the .PDF format.
 
 
-Basically, I don't like PDF because it's super bloated (how often do you use U3D or PRC 3D graphics in your PDF?), prone to being insecure (historically at least) and convoluted to work with in general. 
+Basically I don't like PDF. It's super bloated (how often do you use U3D or PRC 3D graphics in your PDF?), prone to being insecure (historically at least) and convoluted to work with in general. 
 
 Yet, it's widely used when someone wants to send a document that should automatically be interpreted by the users device/browser as a document consisting of a number of pages and which can contain text and vector graphics. While a .html can technically fulfill the same purpose, it's much harder to make it behave like a set of pages (see PDF.js for how complicated it gets).
 
